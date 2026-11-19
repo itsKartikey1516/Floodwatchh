@@ -1,0 +1,16 @@
+﻿satellite,sensor,spatial_resolution,data_type
+IRS-1C & 1D,WiFS,188 m,Optical
+IRS-1C & 1D,LISS-III,23.5 m,Optical
+IRS-1C & 1D,PAN,5.8 m,Optical
+RESOURCESAT-1/2/2A,AWiFS,56 m,Optical
+RESOURCESAT-1/2/2A,LISS-III,23.5 m,Optical
+RESOURCESAT-1/2/2A,PAN/L4-MX,5.8 m,Optical
+RISAT-1,SAR,"25 m, 50 m",Microwave (SAR)
+IRS-P5 CARTOSAT-1,PAN,2.5 m,Optical
+CARTOSAT-2,PAN,1 m,Optical
+RADARSAT-1 & 2,SAR,"100 m, 50 m",Microwave (SAR)
+SENTINEL-1A & 1B,SAR,10 m,Microwave (SAR)
+CARTOSAT-2E,"PAN, MX","0.65 m, 2.00 m",Optical
+CARTOSAT-3,"PAN, MX","0.28 m, 1.12 m",Optical
+RISAT-1A (EOS-4),MRS,33 m,Microwave (SAR)
+RISAT-1A (EOS-4),CRS,50 m,Microwave (SAR)

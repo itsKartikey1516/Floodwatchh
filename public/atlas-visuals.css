@@ -1,0 +1,16 @@
+/* Decorative illustrations fit within the existing layout and type system. */
+.hero-card{isolation:isolate}
+.hero-card:before{inset:-35px -28px -25px -24px;background:url('river-contours.svg') center/cover no-repeat;opacity:.75;pointer-events:none}
+.signal-icon{height:19px;position:relative}
+.signal-icon svg{width:29px;height:29px;position:absolute;left:-3px;top:-5px;overflow:visible}
+.signal{background:#ffffffd9}
+.step,.event{position:relative;isolation:isolate}
+.step-illustration{position:absolute;top:17px;right:19px;width:52px;height:52px;pointer-events:none;opacity:.9}
+.step:after{content:'';position:absolute;inset:auto 0 0;height:36px;background:url('river-contours.svg') 50% 67%/440px auto;opacity:.23;z-index:-1;pointer-events:none;border-radius:0 0 7px 7px}
+.event-illustration{position:absolute;right:14px;top:12px;width:35px;height:35px;opacity:.7;pointer-events:none}
+.event-year{padding-right:36px}
+.district-search-empty>span{background:transparent;width:44px;height:44px}
+.district-search-empty>span svg{width:44px;height:44px}
+.overview-grid .panel-title{background-image:url('river-contours.svg');background-position:right center;background-size:180px auto;background-repeat:no-repeat;background-blend-mode:soft-light;background-color:#fff}
+.safety>span svg{width:26px;height:32px;display:block}
+@media(max-width:560px){.hero-card:before{inset:-15px -10px;opacity:.55}.step-illustration{width:46px;height:46px}.event-illustration{width:30px;height:30px}}

@@ -1,0 +1,13 @@
+{
+  "name": "floodwatch-imd-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Small same-origin proxy for IMD district warning and rainfall feeds",
+  "type": "module",
+  "scripts": {
+    "start": "node --use-system-ca server.js"
+  },
+  "engines": {
+    "node": ">=24"
+  }
+}

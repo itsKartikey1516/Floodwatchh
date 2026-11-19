@@ -1,0 +1,15 @@
+﻿file,column,description
+01_state_flood_summary.csv,state,State name
+01_state_flood_summary.csv,districts_affected,Districts with mapped flooding 1998-2022
+01_state_flood_summary.csv,flood_affected_area_ha,"Cumulative satellite-mapped flood area, hectares"
+01_state_flood_summary.csv,flood_affected_area_sq_km,ha / 100
+01_state_flood_summary.csv,note,"Tripura is not in atlas Table 5.1; national total of 435 districts / 15,750,723 ha excludes it"
+02_flood_severity_categories.csv,*,"Atlas Table 5.2: number of districts in each area band (national, 435 districts)"
+03_district_flood_affected_area.csv,district_name_as_in_atlas,"District names are as printed in the atlas (older names e.g. Faizabad, Allahabad; some districts later renamed/split)"
+03_district_flood_affected_area.csv,area_category_ha,"Band from Table 5.2 assigned from the district area (computed, not printed per district in the atlas)"
+04_major_flood_events.csv,event_description,"Text as printed in the atlas, spelling kept; the atlas has some internal inconsistencies"
+04_major_flood_events.csv,districts_affected,Usually a count; Delhi/Uttarakhand rows give names; blank where the atlas gives none
+05_flood_hazard_zonation_state.csv,*,Only Assam (Table 8.2) and Bihar (Table 9.2) hazard tables are text; Andhra Pradesh tables are images in the PDF and were not extracted
+06_satellite_sensors_used.csv,*,Atlas Table 2.1: satellites/sensors used for flood mapping
+ALL,source,"Flood Affected Area Atlas of India (1998-2022), NRSC/ISRO & NDMA, March 2023"
+ALL,limitations,Historical cumulative extent only; flash floods without satellite coverage are missed; river channels and permanent water bodies excluded; Himachal Pradesh has no flood data in the atlas

@@ -1,0 +1,11 @@
+﻿state,hazard_severity,flood_hazard_area_ha,pct_of_state_geographic_area,pct_of_total_flood_hazard_area,atlas_table
+Assam,Very High,48490,0.62,2.16,8.2
+Assam,High,106659,1.36,4.73,8.2
+Assam,Moderate,282783,3.61,12.54,8.2
+Assam,Low,556080,7.09,24.66,8.2
+Assam,Very Low,1260562,16.07,55.91,8.2
+Bihar,Very High,113481,1.21,3.24,9.2
+Bihar,High,160952,1.71,4.59,9.2
+Bihar,Moderate,376118,3.99,10.73,9.2
+Bihar,Low,867740,9.22,24.75,9.2
+Bihar,Very Low,1987890,21.11,56.7,9.2

@@ -1,0 +1,26 @@
+# Initial website deployment only. SMS stays disabled on the free instance.
+services:
+  - type: web
+    name: floodwatch
+    runtime: node
+    plan: free
+    region: singapore
+    buildCommand: node --check server.js
+    startCommand: npm start
+    healthCheckPath: /api/health
+    autoDeployTrigger: off
+    envVars:
+      - key: NODE_VERSION
+        value: "24.14.0"
+      - key: NODE_ENV
+        value: production
+      - key: HOME_PAGE
+        value: atlas.html
+      - key: SMS_ENABLED
+        value: "false"
+      - key: WEATHERAPI_KEY
+        sync: false
+      - key: WEATHER_CACHE_SECONDS
+        value: "21600"
+      - key: WEATHER_CONCURRENCY
+        value: "3"

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <symbol id="rain" viewBox="0 0 64 64">
+    <path d="M15 36a10 10 0 0 1-1-20 14 14 0 0 1 27-2 11 11 0 1 1 7 22Z" fill="#e8efeb"/>
+    <g fill="none" stroke="#69878b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M15 36a10 10 0 0 1-1-20 14 14 0 0 1 27-2 11 11 0 1 1 7 22H15Z"/><path d="m19 43-3 7m16-7-3 7m16-7-3 7m-17 4-2 5m15-5-2 5"/></g>
+  </symbol>
+  <symbol id="river" viewBox="0 0 64 64">
+    <path d="M24 5h14c-18 12 15 19 4 31S22 48 39 60H17C0 44 28 37 30 28S8 15 24 5Z" fill="#dce8e7"/>
+    <g fill="none" stroke="#69878b" stroke-width="1.7" stroke-linecap="round"><path d="M24 5C8 15 32 19 30 28S0 44 17 60M38 5c-18 12 15 19 4 31S22 48 39 60"/><path d="M52 14v31m-5-26h5m-5 8h5m-5 8h5"/><path d="m5 31 7-4m-5 9 5-2" stroke="#b5bcb0"/></g>
+  </symbol>
+  <symbol id="beacon" viewBox="0 0 64 64">
+    <path d="m24 29-5 26h26l-5-26Z" fill="#e8efeb"/>
+    <g fill="none" stroke="#69878b" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="32" cy="17" r="4" fill="#f4e8d7" stroke="#ad916b"/><path d="m24 29-5 26h26l-5-26M32 21v34M15 55h34M23 40h18"/><path d="M22 8a13 13 0 0 0 0 18m20-18a13 13 0 0 1 0 18M15 3a21 21 0 0 0 0 28m34-28a21 21 0 0 1 0 28" stroke="#a8bcb9"/></g>
+  </symbol>
+  <symbol id="archive" viewBox="0 0 64 64">
+    <path d="m12 10 16 4 16-4 9 4v39l-9-4-16 4-16-4Z" fill="#f3f1e9"/>
+    <g fill="none" stroke="#83958d" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m12 10 16 4 16-4 9 4v39l-9-4-16 4-16-4ZM28 14v39m16-43v39"/><path d="M17 23c12 0 6 14 21 13s7 10 11 9" stroke="#adc2c0" stroke-width="3"/><circle cx="34" cy="25" r="3" stroke="#b49a75"/></g>
+  </symbol>
+  <symbol id="search" viewBox="0 0 64 64">
+    <path d="m6 14 14-4 14 5 15-3v36l-15 3-14-5-14 4Z" fill="#e8efeb"/>
+    <g fill="none" stroke="#83958d" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="m6 14 14-4 14 5 15-3v18M6 14v36l14-4 9 3M20 10v36"/><path d="M10 26c10-7 12 9 21 5" stroke="#a9bfbd"/><circle cx="42" cy="41" r="11" stroke="#69878b" fill="#faf9f7"/><path d="m50 49 9 9" stroke="#69878b" stroke-width="3"/></g>
+  </symbol>
+</svg>
